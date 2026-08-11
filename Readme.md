@@ -54,3 +54,6 @@ npm start
 
 Runs on:
 http://localhost:5000
+
+Deployed link 
+https://mytube-sable-ten.vercel.app/
