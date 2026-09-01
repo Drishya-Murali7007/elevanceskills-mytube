@@ -1,56 +1,60 @@
 # MyTube
 
-A full-stack YouTube-inspired video sharing platform.
+A YouTube-inspired video sharing platform built with Next.js, Express.js and MongoDB.
 
-## Repository Structure
+## Project Structure
 
-📁 mytube/   → Frontend (Next.js + React + TypeScript)
+```
+mytube/   -> Frontend (Next.js)
+server/   -> Backend (Express.js)
+```
 
-📁 server/   → Backend (Express.js + MongoDB)
+## Installation
 
-## Features
+### Clone the repository
 
-✔ User Authentication
-✔ Video Upload
-✔ Search
-✔ Watch History
-✔ Watch Later
-✔ Subscriptions
-✔ Personalized Theme
-✔ Premium Plans
-✔ Responsive UI
+```bash
+git clone https://github.com/Drishya-Murali7007/elevanceskills-mytube.git
+cd elevanceskills-mytube
+```
+
+### Frontend
+
+```bash
+cd mytube
+npm install
+npm run dev
+```
+
+Runs on:
+
+```
+http://localhost:3000
+```
+
+### Backend
+
+Open another terminal:
+
+```bash
+cd server
+npm install
+npm start
+```
+
+Runs on:
+
+```
+http://localhost:5000
+```
 
 ## Tech Stack
 
-Frontend
 - Next.js
 - React
 - TypeScript
 - Tailwind CSS
-
-Backend
 - Express.js
 - MongoDB
 - Mongoose
-- JWT
-- Multer
-
-## Installation
-
-### Frontend
-
-cd mytube
-npm install
-npm run dev
-
-Runs on:
-http://localhost:3000
-
-### Backend
-
-cd server
-npm install
-npm start
-
-Runs on:
-http://localhost:5000
+- JWT Authentication
