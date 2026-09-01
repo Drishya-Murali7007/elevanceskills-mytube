@@ -4,7 +4,7 @@ import "@/styles/globals.css";
 import { ThemeProvider } from "next-themes";
 import { cn } from "@/lib/utils";
 import { AuthProvider } from "../lib/AuthContext";
-import { Analytics } from "@vercel/analytics/next",
+import { Analytics } from "@vercel/analytics/next";
 const nunitoSansHeading = Nunito_Sans({subsets:['latin'],variable:'--font-heading'});
 
 const notoSans = Noto_Sans({subsets:['latin'],variable:'--font-sans'});

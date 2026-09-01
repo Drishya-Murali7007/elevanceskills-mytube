@@ -57,4 +57,32 @@ http://localhost:5000
 - Express.js
 - MongoDB
 - Mongoose
+<<<<<<< HEAD
 - JWT Authentication
+=======
+- JWT
+- Multer
+
+## Installation
+
+### Frontend
+
+cd mytube
+npm install
+npm run dev
+
+Runs on:
+http://localhost:3000
+
+### Backend
+
+cd server
+npm install
+npm start
+
+Runs on:
+http://localhost:5000
+
+Deployed link 
+https://mytube-sable-ten.vercel.app/
+>>>>>>> 01da609d34eaae41b31d77aab18b7bd67bd0421d
